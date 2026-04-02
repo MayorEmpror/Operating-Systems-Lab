@@ -1,0 +1,23 @@
+1. Which command displays the system architecture?
+2. How can you check CPU information in Linux?
+3. Write the command to check the Linux kernel version.
+4. How can you display the current system date and time?
+5. Write the command to list all files and directories in long format.
+6. Which command is used to search for numbers in a file using "grep"?
+7. How can you create three directories named "dir1", "dir2", and "dir3"?
+8. Write the command to remove a file named "file1".
+9. How can you remove an empty directory named "dir1"?
+10. Write the command to change the timestamp of "file_or_dir" to a specific date and time
+
+
+
+1 uname -m
+2 cat/proc/cpuinfo
+3 uname -r
+4 date 
+5 ls -l
+6 grep -E'[0-9]+' filename.txt
+7 mkdir dir1 dir2 dir3
+8 rm fil1
+9 rmdir dir1
+10 touch -t 202603011300 file_name.txt69 

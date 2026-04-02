@@ -1,0 +1,14 @@
+CC = gcc
+TARGET = library 
+SRCS = main.c lib.c 
+all: $(TARGET)
+
+$(TARGET): $(SRCS)
+    $(CC) $(SRCS) -O $(TARGET)
+
+clean: 
+    rm -f $(TARGET)
+
+
+
+ctsa$c
